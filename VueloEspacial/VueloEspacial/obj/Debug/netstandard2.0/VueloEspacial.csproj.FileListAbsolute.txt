@@ -1,0 +1,113 @@
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\bin\Debug\netstandard2.0\VueloEspacial.deps.json
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\bin\Debug\netstandard2.0\VueloEspacial.dll
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\bin\Debug\netstandard2.0\ref\VueloEspacial.dll
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\bin\Debug\netstandard2.0\VueloEspacial.pdb
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\Views\ArticleView.xaml.g.cs
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\Views\Cells\ImageBigViewCell.xaml.g.cs
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\Views\Cells\ImageSmallViewCell.xaml.g.cs
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\Views\DetailArticleView.xaml.g.cs
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\Views\HomeView.xaml.g.cs
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\Views\MenuView.xaml.g.cs
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.AssemblyInfoInputs.cache
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.AssemblyInfo.cs
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.csproj.CoreCompileInputs.cache
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.dll
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\ref\VueloEspacial.dll
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.pdb
+C:\Users\bisma\source\repos\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.csproj.Fody.CopyLocal.cache
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\bin\Debug\netstandard2.0\VueloEspacial.deps.json
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\bin\Debug\netstandard2.0\VueloEspacial.dll
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\bin\Debug\netstandard2.0\ref\VueloEspacial.dll
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\bin\Debug\netstandard2.0\VueloEspacial.pdb
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.csproj.AssemblyReference.cache
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\obj\Debug\netstandard2.0\Views\ArticleView.xaml.g.cs
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\obj\Debug\netstandard2.0\Views\Cells\ImageBigViewCell.xaml.g.cs
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\obj\Debug\netstandard2.0\Views\Cells\ImageSmallViewCell.xaml.g.cs
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\obj\Debug\netstandard2.0\Views\DetailArticleView.xaml.g.cs
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\obj\Debug\netstandard2.0\Views\HomeView.xaml.g.cs
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\obj\Debug\netstandard2.0\Views\MenuView.xaml.g.cs
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.AssemblyInfoInputs.cache
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.AssemblyInfo.cs
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.csproj.CoreCompileInputs.cache
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.csproj.Fody.CopyLocal.cache
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.dll
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\obj\Debug\netstandard2.0\ref\VueloEspacial.dll
+C:\Users\bisma\source\repos\VueloEspacial_solo bismark\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.pdb
+C:\Xamarin\VueloEspacial\VueloEspacial\bin\Debug\netstandard2.0\VueloEspacial.deps.json
+C:\Xamarin\VueloEspacial\VueloEspacial\bin\Debug\netstandard2.0\VueloEspacial.dll
+C:\Xamarin\VueloEspacial\VueloEspacial\bin\Debug\netstandard2.0\ref\VueloEspacial.dll
+C:\Xamarin\VueloEspacial\VueloEspacial\bin\Debug\netstandard2.0\VueloEspacial.pdb
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\Views\ArticleView.xaml.g.cs
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\Views\Cells\ImageBigViewCell.xaml.g.cs
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\Views\Cells\ImageSmallViewCell.xaml.g.cs
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\Views\CommentView.xaml.g.cs
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\Views\DetailArticleView.xaml.g.cs
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\Views\ForgottenView.xaml.g.cs
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\Views\HomeView.xaml.g.cs
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\Views\MenuView.xaml.g.cs
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\Views\RegisterView.xaml.g.cs
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.AssemblyInfoInputs.cache
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.AssemblyInfo.cs
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.csproj.CoreCompileInputs.cache
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.csproj.Fody.CopyLocal.cache
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.dll
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\ref\VueloEspacial.dll
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.pdb
+C:\Xamarin\VueloEspacial\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.csproj.AssemblyReference.cache
+C:\Xamarin\VueloEspacial_si\VueloEspacial\bin\Debug\netstandard2.0\VueloEspacial.deps.json
+C:\Xamarin\VueloEspacial_si\VueloEspacial\bin\Debug\netstandard2.0\VueloEspacial.dll
+C:\Xamarin\VueloEspacial_si\VueloEspacial\bin\Debug\netstandard2.0\ref\VueloEspacial.dll
+C:\Xamarin\VueloEspacial_si\VueloEspacial\bin\Debug\netstandard2.0\VueloEspacial.pdb
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\ArticleView.xaml.g.cs
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\Cells\ImageBigViewCell.xaml.g.cs
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\Cells\ImageSmallViewCell.xaml.g.cs
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\CommentView.xaml.g.cs
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\DetailArticleView.xaml.g.cs
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\ForgottenView.xaml.g.cs
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\HomeView.xaml.g.cs
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\MenuView.xaml.g.cs
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\RegisterView.xaml.g.cs
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.AssemblyInfoInputs.cache
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.AssemblyInfo.cs
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.csproj.CoreCompileInputs.cache
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.csproj.Fody.CopyLocal.cache
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.dll
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\ref\VueloEspacial.dll
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.pdb
+C:\Xamarin\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.csproj.AssemblyReference.cache
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\bin\Debug\netstandard2.0\VueloEspacial.deps.json
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\bin\Debug\netstandard2.0\VueloEspacial.dll
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\bin\Debug\netstandard2.0\ref\VueloEspacial.dll
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\bin\Debug\netstandard2.0\VueloEspacial.pdb
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.csproj.AssemblyReference.cache
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\ArticleView.xaml.g.cs
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\Cells\ImageBigViewCell.xaml.g.cs
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\Cells\ImageSmallViewCell.xaml.g.cs
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\CommentView.xaml.g.cs
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\DetailArticleView.xaml.g.cs
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\ForgottenView.xaml.g.cs
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\HomeView.xaml.g.cs
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\MenuView.xaml.g.cs
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\Views\RegisterView.xaml.g.cs
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.AssemblyInfoInputs.cache
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.AssemblyInfo.cs
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.csproj.CoreCompileInputs.cache
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.csproj.Fody.CopyLocal.cache
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.dll
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\ref\VueloEspacial.dll
+C:\Users\mcamareno\Downloads\VueloEspacial_si (2)\VueloEspacial_si\VueloEspacial\obj\Debug\netstandard2.0\VueloEspacial.pdb
