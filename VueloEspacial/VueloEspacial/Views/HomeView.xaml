@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="VueloEspacial.Views.HomeView"
+             xmlns:PanCake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    x:Name="this">
+    <NavigationPage.TitleView >
+        <Label Text="Spaceflight News" HorizontalTextAlignment="Center" Margin="0,0,60,0" FontSize ="18"  TextColor="White" FontAttributes="Bold" />
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+
+        <!--Doctors List-->
+
+        <StackLayout Orientation="Vertical"  BackgroundColor="#F0F1F6">
+            <PanCake:PancakeView BackgroundColor="#2292dc" CornerRadius="0,0,250,250" HeightRequest="250" Margin="-150, 0, -150, 0" HorizontalOptions="FillAndExpand">
+
+                <StackLayout Orientation="Vertical" Margin="0, 20, 0, 0" HorizontalOptions="FillAndExpand">
+                    <Image Source="space"  HeightRequest="100" WidthRequest="100"  />
+                </StackLayout>
+            </PanCake:PancakeView>
+
+            <!--Menu List-->
+
+            <ListView Margin="0,-60, 0, 0"
+                      ItemsSource="{Binding lstMenu}"
+                      SeparatorVisibility="None"
+                      HasUnevenRows="true"
+                      SelectionMode="None"
+                    BackgroundColor="Transparent">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer 
+                                        Command="{Binding Path=BindingContext.EnterMenuOptionCommand, Source={x:Reference this}}"
+                                        CommandParameter="{Binding .}"/>
+                                </StackLayout.GestureRecognizers>
+                                
+                                <Frame BackgroundColor="White" HasShadow="True" Margin="20, 10, 20, 10" CornerRadius="10" Padding="10"  HorizontalOptions="FillAndExpand">
+                                    <StackLayout Orientation="Horizontal">
+                                        <StackLayout Orientation="Vertical">
+                                            <Image Source="{Binding Icon}" Aspect="AspectFill" HeightRequest="50" WidthRequest="50"/>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Vertical">
+                                        <Label  Text="{Binding Name}" FontSize="12" TextColor="Black" />
+                                    </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+
+        
+    </ContentPage.Content>
+</ContentPage>

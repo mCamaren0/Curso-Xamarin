@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customcontrols:BindableViewCell  xmlns:customcontrols="clr-namespace:VueloEspacial.Helpers"
+                                  xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:PanCake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="VueloEspacial.Views.Cells.ImageSmallViewCell"
+             x:Name="this">
+    <ViewCell.View>
+
+        <StackLayout Orientation="Horizontal"  Padding="10">
+            <StackLayout.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding Path=ParentBindingContext.EnterArticleDetailCommand, Source={x:Reference this}}"
+                    CommandParameter="{Binding .}"/>
+            </StackLayout.GestureRecognizers>
+            <StackLayout Orientation="Vertical">
+                <Label  Text="{Binding title}" FontSize="12" TextColor="Black"/>
+                <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
+                    <Label  Text="{Binding newsSite}" FontSize="10" TextColor="Red"/>
+                    <Label  Text="{Binding publishedAt}" FontSize="10" TextColor="Gray"/>
+                </StackLayout>
+            </StackLayout>
+            <PanCake:PancakeView BackgroundColor="Black" CornerRadius="10" HorizontalOptions="EndAndExpand">
+                <Image Source="{Binding imageUrl}" Aspect="AspectFill" HeightRequest="100" WidthRequest="100"/>
+            </PanCake:PancakeView>
+
+        </StackLayout>
+
+    </ViewCell.View>
+</customcontrols:BindableViewCell>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:helper="clr-namespace:VueloEspacial.Helpers"
+    x:Class="VueloEspacial.Views.ArticleView"
+            x:Name="ArticleViewPage">
+    <NavigationPage.TitleView >
+        <Label Text="{Binding pageTitle}" HorizontalTextAlignment="Center" Margin="0,0,60,0" FontSize ="18"  TextColor="White" FontAttributes="Bold" />
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <helper:ArticleTemplateSelector x:Key="KeyArticleTemplate"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="White">
+        <ListView x:Name="ArticlesList"
+                  Margin="0"
+                   SelectionMode="None"
+                  HasUnevenRows="True"
+                  VerticalOptions="FillAndExpand"
+                  BackgroundColor="Transparent"
+                  SeparatorColor="Gray"
+                  SeparatorVisibility="Default"
+                  ItemsSource="{Binding lstArticles}"
+                  ItemTemplate="{StaticResource KeyArticleTemplate}">
+        </ListView>
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

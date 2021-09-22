@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:PanCake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView" 
+             x:Class="VueloEspacial.Views.DetailArticleView">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F0F1F6">
+            <ScrollView  x:Name="commentScroll">
+                <StackLayout x:Name="stkMain">
+
+                    <Image Source="{Binding CurrentArticle.imageUrl}" Aspect="AspectFill" HeightRequest="300"  BackgroundColor="Black" HorizontalOptions="FillAndExpand" />
+                    <Label  Text="{Binding CurrentArticle.title}" FontSize="12" TextColor="Black" FontAttributes="Bold" Margin="20,0,20,0"/>
+
+                    <StackLayout Orientation="Horizontal" Margin="20,0,20,0" >
+                        <Label  Text="{Binding CurrentArticle.newsSite}" FontSize="10" TextColor="Red"/>
+                        <Label  Text="{Binding CurrentArticle.publishedAt}" FontSize="10" TextColor="Gray" />
+                    </StackLayout>
+                    <Label  Text="{Binding CurrentArticle.summary}" FontSize="12" TextColor="Black" Margin="20,0,20,0"  />
+                    <BoxView BackgroundColor="Black"  HeightRequest="1" HorizontalOptions="FillAndExpand" Margin="10,0,10,0" />
+
+                    <ListView x:Name="CommentList"
+                         IsEnabled="False"
+                         ItemsSource="{Binding Comments}"
+                         SeparatorVisibility="Default"
+                         SelectionMode="None"
+                         VerticalOptions="FillAndExpand" 
+                         HasUnevenRows="True"
+                         VerticalScrollBarVisibility="Never"
+                         HorizontalScrollBarVisibility="Never">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell Appearing = "ViewCell_Appearing">
+                                    <StackLayout Orientation="Horizontal" Margin="10, 5, 0, 0"  Padding="0" >
+
+                                        <StackLayout Orientation="Vertical">
+                                            <PanCake:PancakeView BackgroundColor="#dddddd" CornerRadius="25" >
+                                                <Image Source="{Binding Icon}" Aspect="AspectFill" HeightRequest="50" WidthRequest="50" Margin="0, 5, 0, 0"/>
+                                            </PanCake:PancakeView>
+                                        </StackLayout>
+
+                                        <Frame HorizontalOptions="FillAndExpand" BackgroundColor="White" HasShadow="True" Margin="0, 0, 5, 5" CornerRadius="10" Padding="5">
+                                            <StackLayout Orientation="Vertical">
+                                                <Label  Text="{Binding NameUser}" FontSize="12" TextColor="Black" FontAttributes="Bold" />
+                                                <Label  Text="{Binding Comment}" FontSize="10" TextColor="Black" />
+                                            </StackLayout>
+                                        </Frame>
+
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                </StackLayout>
+            </ScrollView>
+
+            <Frame BackgroundColor="White" HasShadow="True" Margin="5" CornerRadius="10" Padding="5">
+                <StackLayout Orientation="Horizontal" >
+                    <Entry x:Name="commentTextInput"
+                                   Text="{Binding TextToSend}" Margin="1" Keyboard="Chat"
+                                   Placeholder="Type your comment here.." PlaceholderColor="LightGray"
+                                   HorizontalOptions="FillAndExpand" FontSize="12" TextColor="Black"/>
+                    <Button HorizontalOptions="EndAndExpand" ImageSource="Arr" HeightRequest="40" WidthRequest="40" 
+                                        CornerRadius="10" BackgroundColor="LightGray" 
+                                        Command="{Binding OnSendCommand}" >
+                    </Button>
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:PanCake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="VueloEspacial.Views.RegisterView">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F0F1F6">
+                <Grid>
+                    <!--<StackLayout Padding="0" Margin="0" HorizontalOptions="FillAndExpand">
+                    <Frame HeightRequest="150" BackgroundColor="#2292dc" Padding="0" Margin="0">
+                        <Image Source="space" Aspect="AspectFill" Margin="0"/>
+                    </Frame>
+                </StackLayout>-->
+                <PanCake:PancakeView BackgroundColor="#2292dc" CornerRadius="0,0,250,250" HeightRequest="10" Margin="-150, 0, -150, 377" HorizontalOptions="FillAndExpand">
+
+                        <StackLayout Orientation="Vertical" Margin="0, 20, 0, 0" HorizontalOptions="FillAndExpand">
+                            <Image Source="space"  HeightRequest="100" WidthRequest="100"  />
+                        </StackLayout>
+                    </PanCake:PancakeView>
+                    <StackLayout Padding="0" Margin="10,100,10,0" HorizontalOptions="FillAndExpand">                    
+                        <Frame  BackgroundColor="White" HeightRequest="640" HasShadow="True" Padding="0" Margin="0,-90,0,0">
+                        <ScrollView>
+                            <StackLayout>
+
+
+                                <StackLayout Margin="10">
+                                    <Label Text="Sign up" TextColor="Black" HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>
+                                </StackLayout>
+
+                                <StackLayout Padding="0" Margin="15,10">
+
+                                    <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Margin="0,15,0,0" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Frame BackgroundColor="Transparent" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="5" Margin="2,-1,2,2">
+                                                <Image Source="user" Aspect="AspectFill" Margin="0"/>
+                                            </Frame>
+
+                                            <Entry Placeholder="Name" Text="{Binding User.FirstName}" TextColor="#2292dc" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                                        </StackLayout>
+                                    </Frame>
+
+                                    <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Margin="0,15,0,0" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Frame BackgroundColor="Transparent" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="5" Margin="2,-1,2,2">
+                                                <Image Source="user" Aspect="AspectFill" Margin="0"/>
+                                            </Frame>
+
+                                            <Entry Placeholder="Last name" Text="{Binding User.LastName}" TextColor="#2292dc" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                                        </StackLayout>
+                                    </Frame>
+
+                                    <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Margin="0,15,0,0" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Frame BackgroundColor="Transparent" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="5" Margin="2,-1,2,2">
+                                                <Image Source="phone" Aspect="AspectFill" Margin="0"/>
+                                            </Frame>
+
+                                            <Entry Placeholder="Cellphone" Text="{Binding User.Cellphone}" TextColor="#2292dc" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                                        </StackLayout>
+                                    </Frame>
+
+                                    <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Margin="0,15,0,0" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Frame BackgroundColor="Transparent" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="5" Margin="2,-1,2,2">
+                                                <Image Source="mail" Aspect="AspectFill" Margin="0"/>
+                                            </Frame>
+
+                                            <Entry Placeholder="Email" Text="{Binding User.Email}" TextColor="#2292dc" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                                        </StackLayout>
+                                    </Frame>
+
+                                    <Frame BackgroundColor="Transparent" BorderColor="DarkGray" Margin="0,15,0,0" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Frame BackgroundColor="Transparent" HeightRequest="40" WidthRequest="40" CornerRadius="30" Padding="5" Margin="2,-1,2,2">
+                                                <Image Source="lock" Aspect="AspectFill" Margin="0"/>
+                                            </Frame>
+
+                                            <Entry Placeholder="Password" Text="{Binding User.Password}" IsPassword="True" TextColor="#2292dc" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                                        </StackLayout>
+                                    </Frame>                                
+                                    <StackLayout>
+                                    <Image Source="{Binding ImageSource}"  Aspect="AspectFill"/>
+                                    <Button Text="Take a photo" Command="{Binding TakePhotoCommand}" BackgroundColor="#2292dc" TextColor="White" CornerRadius="30" />
+
+                                    <Button Text="Sign up" Command="{Binding RegisterCommand}" BackgroundColor="#2292dc" TextColor="White" CornerRadius="30"/>
+
+                                    <Label Text="Sign in" TextColor="Black" FontAttributes="Bold" FontSize="Small" HorizontalOptions="Center">
+                                        <Label.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding ExitRegisterCommand}"/>
+                                        </Label.GestureRecognizers>
+                                    </Label>
+                                    </StackLayout>
+                                
+                            </StackLayout>
+                                    
+
+
+                            </StackLayout>
+                        </ScrollView>
+                        </Frame>
+                    
+                    </StackLayout>
+                
+            </Grid>
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

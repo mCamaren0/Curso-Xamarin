@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:PanCake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"             
+             x:Class="VueloEspacial.Views.CommentView"
+             x:Name="CommentViewPage">
+    <NavigationPage.TitleView >
+        <Label Text="Comments" HorizontalTextAlignment="Center" Margin="0,0,60,0" FontSize ="18"  TextColor="White" FontAttributes="Bold" />
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F0F1F6">
+            <ScrollView  x:Name="commentScroll">
+                <StackLayout x:Name="stkMain">
+                    <ListView x:Name="CommentList"
+                         ItemsSource="{Binding CommentsUser}"
+                         SeparatorVisibility="Default"
+                         VerticalOptions="FillAndExpand" 
+                         SelectedItem="None"
+                         HasUnevenRows="True"
+                         VerticalScrollBarVisibility="Never"
+                         HorizontalScrollBarVisibility="Never">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <!--<ViewCell Appearing = "ViewCell_Appearing">-->
+                                <ViewCell>
+                                    <StackLayout>
+                                        <StackLayout>
+                                            <Image Source="{Binding ArticleImage}" Aspect="Fill" HeightRequest="120"  BackgroundColor="Black" HorizontalOptions="FillAndExpand" />
+                                            <Label  Text="{Binding ArticleName}" FontSize="12" TextColor="Black" FontAttributes="Bold" Margin="20,0,20,0"/>
+                                        </StackLayout>
+                                        <BoxView BackgroundColor="Black"  HeightRequest="1" HorizontalOptions="FillAndExpand" Margin="10,0,10,0" />
+
+                                        <StackLayout Orientation="Horizontal" Margin="10, 5, 0, 0"  Padding="0" >
+
+                                            <StackLayout Orientation="Vertical">
+                                                <PanCake:PancakeView BackgroundColor="#dddddd" CornerRadius="25" >
+                                                    <Image Source="{Binding Icon}" Aspect="AspectFill" HeightRequest="50" WidthRequest="50" Margin="0, 5, 0, 0"/>
+
+                                                </PanCake:PancakeView>
+                                            </StackLayout>
+
+                                            <Frame HorizontalOptions="FillAndExpand" BackgroundColor="White" HasShadow="True" Margin="0, 0, 5, 5" CornerRadius="10" Padding="5">
+                                                <StackLayout Orientation="Vertical">
+                                                    <Label  Text="{Binding NameUser}" FontSize="12" TextColor="Black" FontAttributes="Bold" />
+                                                    <Label Text="{Binding Comment}" TextColor="Black" FontAttributes="Bold" FontSize="Small"/>
+                                                    <Button x:Name="Delete" 
+                                                                Text="Delete comment"
+                                                                BackgroundColor="#2292dc" TextColor="White" CornerRadius="30"
+                                                                HeightRequest="35" Margin="0,8,0,0"
+                                                                Command="{Binding Path=BindingContext.DeleteCommentCommand, Source={x:Reference CommentViewPage}}"
+                                                                CommandParameter="{Binding .}"/>
+                                                </StackLayout>
+                                            </Frame>
+
+                                        </StackLayout>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
